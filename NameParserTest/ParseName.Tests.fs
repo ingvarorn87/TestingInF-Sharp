@@ -39,3 +39,26 @@ module Tests =
          let rawName : string = "Ms Jane Doe"
          let actual = parseName rawName
          Assert.IsType<Parser.Name>(actual)
+
+    [<Fact>]
+    let ``Given a single item the item is placed in LastName`` () =
+         let rawName : string = "Doe"
+         let expected : string = "Doe"
+         let actual = (Parser.parseName rawName).LastName
+         Assert.Equal(expected, actual)
+
+    [<Fact>]
+    let ``Given two items the items is placed in FirstName and LastName`` () =
+         let rawName  = "Jane Doe"
+         let expected = "Jane", "Doe"
+         let parsed = parseName rawName
+         let actual = parsed.FirstName, parsed.LastName
+         Assert.Equal(expected, actual)
+
+    [<Fact>]
+    let ``Given three items the items is placed in Title, FirstName and LastName`` () =
+         let rawName  = "Ms Jane Doe"
+         let expected = "Ms", "Jane", "Doe"
+         let parsed = parseName rawName
+         let actual = parsed.Title,parsed.FirstName, parsed.LastName
+         Assert.Equal(expected, actual)
