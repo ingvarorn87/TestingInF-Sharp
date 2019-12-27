@@ -23,4 +23,13 @@ module Tests =
            let rawName : string = ""
            Assert.Throws(typeof<System.ArgumentException>,
            (fun () -> parseName rawName |> ignore))
+
+    [<Theory>]
+    [<InlineData("")>]
+    [<InlineData(" ")>]
+    [<InlineData("\t")>]
+    let ``An blank string produces an argument exeption`` rawName =
+        Assert.Throws(typeof<System.ArgumentException>,
+        (fun () -> parseName rawName |> ignore))
+
             

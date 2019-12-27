@@ -6,3 +6,11 @@ C:\Users\Ingvar\source\repos\NameParser\NameParser\obj\Debug\netcoreapp3.0\NameP
 C:\Users\Ingvar\source\repos\NameParser\NameParser\obj\Debug\netcoreapp3.0\NameParser.AssemblyInfo.fs
 C:\Users\Ingvar\source\repos\NameParser\NameParser\obj\Debug\netcoreapp3.0\NameParser.dll
 C:\Users\Ingvar\source\repos\NameParser\NameParser\obj\Debug\netcoreapp3.0\NameParser.pdb
+C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\NameParser\bin\Debug\netcoreapp3.0\NameParser.deps.json
+C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\NameParser\bin\Debug\netcoreapp3.0\NameParser.dll
+C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\NameParser\bin\Debug\netcoreapp3.0\NameParser.pdb
+C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\NameParser\obj\Debug\netcoreapp3.0\NameParser.fsprojAssemblyReference.cache
+C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\NameParser\obj\Debug\netcoreapp3.0\NameParser.AssemblyInfoInputs.cache
+C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\NameParser\obj\Debug\netcoreapp3.0\NameParser.AssemblyInfo.fs
+C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\NameParser\obj\Debug\netcoreapp3.0\NameParser.dll
+C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\NameParser\obj\Debug\netcoreapp3.0\NameParser.pdb
