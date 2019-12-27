@@ -3,11 +3,24 @@
 open System
 
 module Parser =
+
+    type Name = 
+        { 
+            Title: string
+            FirstName: string
+            LastName: string
+        }
     
-    let parseName rawName = 
+    let parseName (rawName : string) = 
         
         if rawName = null then
             raise <| ArgumentNullException()
-        else
+        elif rawName.Trim() = "" then
              raise <| ArgumentException()
+        else
+        { 
+            Title = null
+            FirstName = null
+            LastName = null
+        }
 

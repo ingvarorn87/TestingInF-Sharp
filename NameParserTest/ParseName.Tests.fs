@@ -29,7 +29,13 @@ module Tests =
     [<InlineData(" ")>]
     [<InlineData("\t")>]
     let ``An blank string produces an argument exeption`` rawName =
-        Assert.Throws(typeof<System.ArgumentException>,
-        (fun () -> parseName rawName |> ignore))
+       Assert.Throws(typeof<System.ArgumentException>,
+       (fun () -> parseName rawName |> ignore))
 
-            
+    
+    
+    [<Fact>]
+    let ``The function produces a title, first name and a last name`` () =
+         let rawName : string = "Ms Jane Doe"
+         let actual = parseName rawName
+         Assert.IsType<Parser.Name>(actual)
