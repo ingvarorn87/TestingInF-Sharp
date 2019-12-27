@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+        <PaketPropsVersion>5.185.3</PaketPropsVersion>
+        <PaketPropsLoaded>true</PaketPropsLoaded>
+    </PropertyGroup>
+
+    <ItemGroup Condition="($(DesignTimeBuild) == true) AND (('$(TargetFramework)' == 'netcoreapp3.0') OR ('$(TargetFramework)' == 'netcoreapp30'))">
+        <PackageReference Include="Microsoft.CodeCoverage">
+            <Version>16.4</Version>
+        </PackageReference>
+        <PackageReference Include="Newtonsoft.Json">
+            <Version>12.0.3</Version>
+        </PackageReference>
+        <PackageReference Include="NuGet.Frameworks">
+            <Version>5.4</Version>
+        </PackageReference>
+        <PackageReference Include="Microsoft.TestPlatform.ObjectModel">
+            <Version>16.4</Version>
+        </PackageReference>
+        <PackageReference Include="Microsoft.TestPlatform.TestHost">
+            <Version>16.4</Version>
+        </PackageReference>
+        <PackageReference Include="Microsoft.NET.Test.Sdk">
+            <Version>16.4</Version>
+        </PackageReference>
+    </ItemGroup>
+    <ItemGroup Condition="($(DesignTimeBuild) == true) AND (('$(TargetFramework)' == 'netcoreapp3.0') OR ('$(TargetFramework)' == 'netcoreapp30') OR ('$(TargetFramework)' == 'netstandard2.0') OR ('$(TargetFramework)' == 'netstandard20') OR ('$(TargetFramework)' == 'netstandard2.1') OR ('$(TargetFramework)' == 'netstandard21'))">
+        <PackageReference Include="Microsoft.NETCore.Platforms">
+            <Version>3.1</Version>
+        </PackageReference>
+        <PackageReference Include="NETStandard.Library">
+            <Version>2.0.3</Version>
+        </PackageReference>
+        <PackageReference Include="xunit.abstractions">
+            <Version>2.0.3</Version>
+        </PackageReference>
+        <PackageReference Include="xunit.analyzers">
+            <Version>0.10</Version>
+        </PackageReference>
+        <PackageReference Include="xunit.assert">
+            <Version>2.4.1</Version>
+        </PackageReference>
+        <PackageReference Include="xunit.extensibility.core">
+            <Version>2.4.1</Version>
+        </PackageReference>
+        <PackageReference Include="xunit.extensibility.execution">
+            <Version>2.4.1</Version>
+        </PackageReference>
+        <PackageReference Include="xunit.core">
+            <Version>2.4.1</Version>
+        </PackageReference>
+        <PackageReference Include="xunit">
+            <Version>2.4.1</Version>
+        </PackageReference>
+        <PackageReference Include="xunit.runner.visualstudio">
+            <Version>2.4.1</Version>
+        </PackageReference>
+    </ItemGroup>
+</Project>
