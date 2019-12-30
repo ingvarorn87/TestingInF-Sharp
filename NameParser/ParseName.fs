@@ -3,6 +3,9 @@
 open System
 
 module Parser =
+    
+    let isTitle s = 
+        s = "Ms"
 
     type Name = 
         { 
@@ -28,9 +31,13 @@ module Parser =
                 {Title = null
                  FirstName = p1
                  LastName = p2}
-            | ([|p1; p2; p3|]) ->
+            | ([|p1; p2; p3|]) when isTitle p1->
                 {Title = p1
                  FirstName = p2
+                 LastName = p3}
+            | ([|p1; p2; p3|]) ->
+                {Title = null
+                 FirstName = p1 + " " + p2 
                  LastName = p3}
             | _ -> raise <| Exception()
 

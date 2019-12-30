@@ -62,3 +62,24 @@ module Tests =
          let parsed = parseName rawName
          let actual = parsed.Title,parsed.FirstName, parsed.LastName
          Assert.Equal(expected, actual)
+    
+    [<Fact>]
+       let ``Given three items when the first is not a title the items is placed in FirstName and LastName`` () =
+            let rawName  = "Jane A Doe"
+            let expected = "Jane A", "Doe"
+            let parsed = parseName rawName
+            let actual = parsed.FirstName, parsed.LastName
+            Assert.Equal(expected, actual)
+
+    [<Theory>]
+    [<InlineData("Ms")>]
+    [<InlineData("Mrs")>]
+    [<InlineData("Mr")>]
+    [<InlineData("Prof")>]
+    [<InlineData("Dr")>]
+    let  ``Given a title amd two other items the items are placed in title, FirstName and LastName`` title =
+        let rawName = sprintf "%s Jane Doe" title
+        let expected = title, "Jane", "Doe"
+        let parsed = parseName rawName
+        let actual = parsed.Title, parsed.FirstName, parsed.LastName
+        Assert.Equal(expected, actual)
