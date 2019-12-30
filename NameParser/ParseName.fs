@@ -3,9 +3,7 @@
 open System
 
 module Parser =
-    
-    let isTitle s = 
-        s = "Ms"
+  
 
     type Name = 
         { 
@@ -14,7 +12,7 @@ module Parser =
             LastName: string
         }
     
-    let parseName (rawName : string) = 
+    let parseName isTitle (rawName : string) = 
         
         if rawName = null then
             raise <| ArgumentNullException()
