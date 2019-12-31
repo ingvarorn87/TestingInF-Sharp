@@ -2,6 +2,31 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.0": {
+      "FsCheck/2.14.0": {
+        "type": "package",
+        "dependencies": {
+          "FSharp.Core": "4.2.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/FsCheck.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/FsCheck.dll": {}
+        }
+      },
+      "FsCheck.Xunit/2.14.0": {
+        "type": "package",
+        "dependencies": {
+          "FsCheck": "[2.14.0]",
+          "xunit.extensibility.execution": "[2.2.0, 3.0.0)"
+        },
+        "compile": {
+          "lib/netstandard2.0/FsCheck.Xunit.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/FsCheck.Xunit.dll": {}
+        }
+      },
       "FSharp.Core/4.7.0": {
         "type": "package",
         "compile": {
@@ -446,7 +471,14 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.0",
         "dependencies": {
-          "FSharp.Core": "4.7.0"
+          "FSharp.Core": "4.7.0",
+          "FsCheck": "2.14.0",
+          "Microsoft.NETCore.Platforms": "3.1.0",
+          "NETStandard.Library": "2.0.3",
+          "fscheck.xunit": "2.14.0",
+          "xunit.abstractions": "2.0.3",
+          "xunit.extensibility.core": "2.4.1",
+          "xunit.extensibility.execution": "2.4.1"
         },
         "compile": {
           "bin/placeholder/NameParser.dll": {}
@@ -458,6 +490,44 @@
     }
   },
   "libraries": {
+    "FsCheck/2.14.0": {
+      "sha512": "4D8/O3OA0p5GFToCqweJai5BzN2ci5arKuuAJM8EHF/0Ss+scA7RWsXMhBwzEicy9nWaSRNL5RavzTz6zqFHkg==",
+      "type": "package",
+      "path": "fscheck/2.14.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fscheck.2.14.0.nupkg.sha512",
+        "fscheck.nuspec",
+        "lib/net452/FsCheck.dll",
+        "lib/net452/FsCheck.xml",
+        "lib/netstandard1.0/FsCheck.dll",
+        "lib/netstandard1.0/FsCheck.xml",
+        "lib/netstandard1.6/FsCheck.dll",
+        "lib/netstandard1.6/FsCheck.xml",
+        "lib/netstandard2.0/FsCheck.dll",
+        "lib/netstandard2.0/FsCheck.xml",
+        "paket-installmodel.cache"
+      ]
+    },
+    "FsCheck.Xunit/2.14.0": {
+      "sha512": "1Swi2M9NDoNxUdMgUzT8Xv1qAR7624mnRI1mWzBxDcFqvnF4BUyazN9tEv0Ueb4/wEhMjGgsRq2r1vRvGIHpDg==",
+      "type": "package",
+      "path": "fscheck.xunit/2.14.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fscheck.xunit.2.14.0.nupkg.sha512",
+        "fscheck.xunit.nuspec",
+        "lib/net452/FsCheck.Xunit.dll",
+        "lib/net452/FsCheck.Xunit.xml",
+        "lib/netstandard1.6/FsCheck.Xunit.dll",
+        "lib/netstandard1.6/FsCheck.Xunit.xml",
+        "lib/netstandard2.0/FsCheck.Xunit.dll",
+        "lib/netstandard2.0/FsCheck.Xunit.xml",
+        "paket-installmodel.cache"
+      ]
+    },
     "FSharp.Core/4.7.0": {
       "sha512": "6Bf2qzSCaJoP6tTfO+a5muUS7QbyJANqSut73zQvwQ9It5P0ITz9VKseeia2ofco30c55EQ0jA2wf2+A2gpGnw==",
       "type": "package",
@@ -500,7 +570,8 @@
         "lib/netstandard2.0/ru/FSharp.Core.resources.dll",
         "lib/netstandard2.0/tr/FSharp.Core.resources.dll",
         "lib/netstandard2.0/zh-Hans/FSharp.Core.resources.dll",
-        "lib/netstandard2.0/zh-Hant/FSharp.Core.resources.dll"
+        "lib/netstandard2.0/zh-Hant/FSharp.Core.resources.dll",
+        "paket-installmodel.cache"
       ]
     },
     "Microsoft.CodeCoverage/16.4.0": {

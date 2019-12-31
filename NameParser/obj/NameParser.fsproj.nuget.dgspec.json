@@ -39,6 +39,34 @@
             "FSharp.Core": {
               "target": "Package",
               "version": "[4.7.0, )"
+            },
+            "FsCheck": {
+              "target": "Package",
+              "version": "[2.14.0, )"
+            },
+            "Microsoft.NETCore.Platforms": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "fscheck.xunit": {
+              "target": "Package",
+              "version": "[2.14.0, )"
+            },
+            "xunit.abstractions": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "xunit.extensibility.core": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.extensibility.execution": {
+              "target": "Package",
+              "version": "[2.4.1, )"
             }
           },
           "imports": [

@@ -4,6 +4,7 @@
     <TargetFramework>netcoreapp3.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="ParseName.PropertyTests.fs" />
     <Compile Include="ParseName.Tests.fs" />
   </ItemGroup>
   <ItemGroup>
