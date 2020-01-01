@@ -14,6 +14,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "CanopyTesting", "CanopyTesting\CanopyTesting.fsproj", "{6389D612-69D8-47B5-8A8F-B94DE0B84179}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "CanopyExample2", "CanopyExample2\CanopyExample2.fsproj", "{D7ACA5C6-1C80-4BB3-8414-90BF46C27BC4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +34,10 @@ Global
 		{6389D612-69D8-47B5-8A8F-B94DE0B84179}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6389D612-69D8-47B5-8A8F-B94DE0B84179}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6389D612-69D8-47B5-8A8F-B94DE0B84179}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7ACA5C6-1C80-4BB3-8414-90BF46C27BC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7ACA5C6-1C80-4BB3-8414-90BF46C27BC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7ACA5C6-1C80-4BB3-8414-90BF46C27BC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7ACA5C6-1C80-4BB3-8414-90BF46C27BC4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
