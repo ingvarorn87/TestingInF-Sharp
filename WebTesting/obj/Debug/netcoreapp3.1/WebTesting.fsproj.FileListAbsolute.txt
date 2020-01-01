@@ -14,7 +14,6 @@ C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\WebTesting\bin\Debug\ne
 C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\WebTesting\bin\Debug\netcoreapp3.1\zh-Hans\FSharp.Core.resources.dll
 C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\WebTesting\bin\Debug\netcoreapp3.1\zh-Hant\FSharp.Core.resources.dll
 C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\WebTesting\obj\Debug\netcoreapp3.1\WebTesting.fsprojAssemblyReference.cache
-C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\WebTesting\obj\Debug\netcoreapp3.1\WebTesting.fsproj.CoreCompileInputs.cache
 C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\WebTesting\obj\Debug\netcoreapp3.1\WebTesting.AssemblyInfoInputs.cache
 C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\WebTesting\obj\Debug\netcoreapp3.1\WebTesting.AssemblyInfo.fs
 C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\WebTesting\obj\Debug\netcoreapp3.1\WebTesting.fsproj.CopyComplete
@@ -26,3 +25,10 @@ C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\WebTesting\bin\Debug\ne
 C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\WebTesting\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\WebTesting\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Drawing.Common.dll
 C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\WebTesting\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Drawing.Common.dll
+C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\WebTesting\bin\Debug\netcoreapp3.1\WebTesting.deps.json
+C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\WebTesting\bin\Debug\netcoreapp3.1\WebTesting.runtimeconfig.json
+C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\WebTesting\bin\Debug\netcoreapp3.1\WebTesting.runtimeconfig.dev.json
+C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\WebTesting\bin\Debug\netcoreapp3.1\WebTesting.dll
+C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\WebTesting\bin\Debug\netcoreapp3.1\WebTesting.pdb
+C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\WebTesting\obj\Debug\netcoreapp3.1\WebTesting.dll
+C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\WebTesting\obj\Debug\netcoreapp3.1\WebTesting.pdb
