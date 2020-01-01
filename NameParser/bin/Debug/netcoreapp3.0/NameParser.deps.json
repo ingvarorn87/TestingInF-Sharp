@@ -12,6 +12,7 @@
           "FsCheck": "2.14.0",
           "Microsoft.NETCore.Platforms": "3.1.0",
           "NETStandard.Library": "2.0.3",
+          "Selenium.WebDriver.ChromeDriver": "79.0.3945.3600",
           "canopy": "2.1.1",
           "FsCheck.Xunit": "2.14.0",
           "xunit.abstractions": "2.0.3",
@@ -180,6 +181,7 @@
           }
         }
       },
+      "Selenium.WebDriver.ChromeDriver/79.0.3945.3600": {},
       "System.Collections/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "3.1.0",
@@ -669,6 +671,13 @@
       "sha512": "sha512-hkNeyxU8S/cojFQfHg1R234R0GtYxJG1iJ403sRKiGSE/6mW3vHCvG3uUDwFqzoTfMNSChHymuSwsFbT1EAd6w==",
       "path": "selenium.webdriver/3.14.0",
       "hashPath": "selenium.webdriver.3.14.0.nupkg.sha512"
+    },
+    "Selenium.WebDriver.ChromeDriver/79.0.3945.3600": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ng2VdpBOI4ciRJpcT7mxgEBU9FGYZ+T7reHdgrqKXoKJtTRZvqKee4qxRPdkBSGxAZKcg9wzgKr3E7YEfacy/Q==",
+      "path": "selenium.webdriver.chromedriver/79.0.3945.3600",
+      "hashPath": "selenium.webdriver.chromedriver.79.0.3945.3600.nupkg.sha512"
     },
     "System.Collections/4.3.0": {
       "type": "package",

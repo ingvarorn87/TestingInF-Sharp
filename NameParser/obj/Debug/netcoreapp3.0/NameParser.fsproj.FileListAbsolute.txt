@@ -14,4 +14,3 @@ C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\NameParser\obj\Debug\ne
 C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\NameParser\obj\Debug\netcoreapp3.0\NameParser.AssemblyInfo.fs
 C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\NameParser\obj\Debug\netcoreapp3.0\NameParser.dll
 C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\NameParser\obj\Debug\netcoreapp3.0\NameParser.pdb
-C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\NameParser\obj\Debug\netcoreapp3.0\NameParser.fsproj.CoreCompileInputs.cache

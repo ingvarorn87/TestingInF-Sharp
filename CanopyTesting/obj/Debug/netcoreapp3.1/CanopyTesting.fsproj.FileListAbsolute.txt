@@ -1,6 +1,5 @@
 C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\CanopyTesting\bin\Debug\netcoreapp3.1\CanopyTesting.exe
 C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\CanopyTesting\obj\Debug\netcoreapp3.1\CanopyTesting.fsprojAssemblyReference.cache
-C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\CanopyTesting\obj\Debug\netcoreapp3.1\CanopyTesting.fsproj.CoreCompileInputs.cache
 C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\CanopyTesting\obj\Debug\netcoreapp3.1\CanopyTesting.AssemblyInfoInputs.cache
 C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\CanopyTesting\obj\Debug\netcoreapp3.1\CanopyTesting.AssemblyInfo.fs
 C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\CanopyTesting\bin\Debug\netcoreapp3.1\canopy.dll
@@ -27,3 +26,10 @@ C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\CanopyTesting\bin\Debug
 C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\CanopyTesting\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Drawing.Common.dll
 C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\CanopyTesting\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Drawing.Common.dll
 C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\CanopyTesting\obj\Debug\netcoreapp3.1\CanopyTesting.fsproj.CopyComplete
+C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\CanopyTesting\bin\Debug\netcoreapp3.1\CanopyTesting.deps.json
+C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\CanopyTesting\bin\Debug\netcoreapp3.1\CanopyTesting.runtimeconfig.json
+C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\CanopyTesting\bin\Debug\netcoreapp3.1\CanopyTesting.runtimeconfig.dev.json
+C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\CanopyTesting\bin\Debug\netcoreapp3.1\CanopyTesting.dll
+C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\CanopyTesting\bin\Debug\netcoreapp3.1\CanopyTesting.pdb
+C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\CanopyTesting\obj\Debug\netcoreapp3.1\CanopyTesting.dll
+C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\CanopyTesting\obj\Debug\netcoreapp3.1\CanopyTesting.pdb
