@@ -2,6 +2,20 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.0": {
+      "canopy/2.1.1": {
+        "type": "package",
+        "dependencies": {
+          "FSharp.Core": "4.3.4",
+          "Selenium.WebDriver": "3.14.0",
+          "System.Drawing.Common": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/canopy.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/canopy.dll": {}
+        }
+      },
       "FsCheck/2.14.0": {
         "type": "package",
         "dependencies": {
@@ -352,6 +366,24 @@
           "build/netcoreapp2.1/Microsoft.TestPlatform.TestHost.props": {}
         }
       },
+      "Microsoft.Win32.SystemEvents/4.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.0.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp2.0/Microsoft.Win32.SystemEvents.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
       "NETStandard.Library/2.0.3": {
         "type": "package",
         "dependencies": {
@@ -383,6 +415,47 @@
         },
         "runtime": {
           "lib/netstandard2.0/NuGet.Frameworks.dll": {}
+        }
+      },
+      "Selenium.WebDriver/3.14.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "10.0.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/WebDriver.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/WebDriver.dll": {}
+        }
+      },
+      "Selenium.WebDriver.ChromeDriver/79.0.3945.3600": {
+        "type": "package",
+        "build": {
+          "build/_._": {}
+        }
+      },
+      "System.Drawing.Common/4.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.0.0",
+          "Microsoft.Win32.SystemEvents": "4.5.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/System.Drawing.Common.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Drawing.Common.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp2.0/System.Drawing.Common.dll": {
+            "assetType": "runtime",
+            "rid": "unix"
+          },
+          "runtimes/win/lib/netcoreapp2.0/System.Drawing.Common.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
         }
       },
       "xunit/2.4.1": {
@@ -475,6 +548,8 @@
           "FsCheck": "2.14.0",
           "Microsoft.NETCore.Platforms": "3.1.0",
           "NETStandard.Library": "2.0.3",
+          "Selenium.Webdriver.ChromeDriver": "79.0.3945.3600",
+          "canopy": "2.1.1",
           "fscheck.xunit": "2.14.0",
           "xunit.abstractions": "2.0.3",
           "xunit.extensibility.core": "2.4.1",
@@ -490,6 +565,22 @@
     }
   },
   "libraries": {
+    "canopy/2.1.1": {
+      "sha512": "Qn0yBlqZz+XgMiInTdYsM1BxcequxzBSCIA6jBpzBVsi4B1oxtLtcUiB2nay3S68GQsb0gxK3HTE6BRa77+vrA==",
+      "type": "package",
+      "path": "canopy/2.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "canopy.2.1.1.nupkg.sha512",
+        "canopy.nuspec",
+        "lib/netstandard2.0/canopy.deps.json",
+        "lib/netstandard2.0/canopy.dll",
+        "lib/netstandard2.0/canopy.pdb",
+        "lib/netstandard2.0/canopy.xml",
+        "paket-installmodel.cache"
+      ]
+    },
     "FsCheck/2.14.0": {
       "sha512": "4D8/O3OA0p5GFToCqweJai5BzN2ci5arKuuAJM8EHF/0Ss+scA7RWsXMhBwzEicy9nWaSRNL5RavzTz6zqFHkg==",
       "type": "package",
@@ -873,6 +964,26 @@
         "paket-installmodel.cache"
       ]
     },
+    "Microsoft.Win32.SystemEvents/4.5.0": {
+      "sha512": "LuI1oG+24TUj1ZRQQjM5Ew73BKnZE5NZ/7eAdh1o8ST5dPhUnJvIkiIn2re3MwnkRy6ELRnvEbBxHP8uALKhJw==",
+      "type": "package",
+      "path": "microsoft.win32.systemevents/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Win32.SystemEvents.dll",
+        "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll",
+        "microsoft.win32.systemevents.4.5.0.nupkg.sha512",
+        "microsoft.win32.systemevents.nuspec",
+        "ref/net461/Microsoft.Win32.SystemEvents.dll",
+        "ref/netstandard2.0/Microsoft.Win32.SystemEvents.dll",
+        "runtimes/win/lib/netcoreapp2.0/Microsoft.Win32.SystemEvents.dll",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
     "NETStandard.Library/2.0.3": {
       "sha512": "EILxNzomMVUHjSVXSgbMa4Ve6s+Ml7XgKstZIp0N6SvGDOl17s/BTm31MRT84pUV8bDC6P4HLcAqjJP0afopbQ==",
       "type": "package",
@@ -1050,6 +1161,73 @@
         "nuget.frameworks.5.4.0.nupkg.sha512",
         "nuget.frameworks.nuspec",
         "paket-installmodel.cache"
+      ]
+    },
+    "Selenium.WebDriver/3.14.0": {
+      "sha512": "hkNeyxU8S/cojFQfHg1R234R0GtYxJG1iJ403sRKiGSE/6mW3vHCvG3uUDwFqzoTfMNSChHymuSwsFbT1EAd6w==",
+      "type": "package",
+      "path": "selenium.webdriver/3.14.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/WebDriver.dll",
+        "lib/net35/WebDriver.xml",
+        "lib/net40/WebDriver.dll",
+        "lib/net40/WebDriver.xml",
+        "lib/net45/WebDriver.dll",
+        "lib/net45/WebDriver.xml",
+        "lib/netstandard2.0/WebDriver.dll",
+        "lib/netstandard2.0/WebDriver.xml",
+        "selenium.webdriver.3.14.0.nupkg.sha512",
+        "selenium.webdriver.nuspec"
+      ]
+    },
+    "Selenium.WebDriver.ChromeDriver/79.0.3945.3600": {
+      "sha512": "ng2VdpBOI4ciRJpcT7mxgEBU9FGYZ+T7reHdgrqKXoKJtTRZvqKee4qxRPdkBSGxAZKcg9wzgKr3E7YEfacy/Q==",
+      "type": "package",
+      "path": "selenium.webdriver.chromedriver/79.0.3945.3600",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Selenium.WebDriver.ChromeDriver.targets",
+        "driver/linux64/chromedriver",
+        "driver/mac64/chromedriver",
+        "driver/win32/chromedriver.exe",
+        "selenium.webdriver.chromedriver.79.0.3945.3600.nupkg.sha512",
+        "selenium.webdriver.chromedriver.nuspec"
+      ]
+    },
+    "System.Drawing.Common/4.5.0": {
+      "sha512": "AiJFxxVPdeITstiRS5aAu8+8Dpf5NawTMoapZ53Gfirml24p7HIfhjmCRxdXnmmf3IUA3AX3CcW7G73CjWxW/Q==",
+      "type": "package",
+      "path": "system.drawing.common/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net461/System.Drawing.Common.dll",
+        "lib/netstandard2.0/System.Drawing.Common.dll",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net461/System.Drawing.Common.dll",
+        "ref/netstandard2.0/System.Drawing.Common.dll",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/unix/lib/netcoreapp2.0/System.Drawing.Common.dll",
+        "runtimes/win/lib/netcoreapp2.0/System.Drawing.Common.dll",
+        "system.drawing.common.4.5.0.nupkg.sha512",
+        "system.drawing.common.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
       ]
     },
     "xunit/2.4.1": {
