@@ -19,7 +19,7 @@ module Parser =
         elif rawName.Trim() = "" then
              raise <| ArgumentException()
         else
-            let parts = rawName.Split([|' '|])
+            let parts = rawName.Split([|' '|], StringSplitOptions.RemoveEmptyEntries)
             match parts with
             | ([|p1|]) ->
                 {Title = null

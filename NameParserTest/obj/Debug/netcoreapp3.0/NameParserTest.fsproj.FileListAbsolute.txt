@@ -218,3 +218,5 @@ C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\NameParserTest\obj\Debu
 C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\NameParserTest\obj\Debug\netcoreapp3.0\NameParserTest.fsproj.CopyComplete
 C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\NameParserTest\obj\Debug\netcoreapp3.0\NameParserTest.dll
 C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\NameParserTest\obj\Debug\netcoreapp3.0\NameParserTest.pdb
+C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\NameParserTest\bin\Debug\netcoreapp3.0\FsCheck.dll
+C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\NameParserTest\bin\Debug\netcoreapp3.0\FsCheck.Xunit.dll
