@@ -14,7 +14,6 @@ C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\CanopyExample2\bin\Debu
 C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\CanopyExample2\bin\Debug\netcoreapp3.1\zh-Hans\FSharp.Core.resources.dll
 C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\CanopyExample2\bin\Debug\netcoreapp3.1\zh-Hant\FSharp.Core.resources.dll
 C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\CanopyExample2\obj\Debug\netcoreapp3.1\CanopyExample2.fsprojAssemblyReference.cache
-C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\CanopyExample2\obj\Debug\netcoreapp3.1\CanopyExample2.fsproj.CoreCompileInputs.cache
 C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\CanopyExample2\obj\Debug\netcoreapp3.1\CanopyExample2.AssemblyInfoInputs.cache
 C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\CanopyExample2\obj\Debug\netcoreapp3.1\CanopyExample2.AssemblyInfo.fs
 C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\CanopyExample2\obj\Debug\netcoreapp3.1\CanopyExample2.fsproj.CopyComplete
@@ -26,3 +25,14 @@ C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\CanopyExample2\bin\Debu
 C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\CanopyExample2\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\CanopyExample2\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Drawing.Common.dll
 C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\CanopyExample2\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Drawing.Common.dll
+C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\CanopyExample2\bin\Debug\netcoreapp3.1\CanopyExample2.deps.json
+C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\CanopyExample2\bin\Debug\netcoreapp3.1\CanopyExample2.runtimeconfig.json
+C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\CanopyExample2\bin\Debug\netcoreapp3.1\CanopyExample2.runtimeconfig.dev.json
+C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\CanopyExample2\bin\Debug\netcoreapp3.1\CanopyExample2.dll
+C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\CanopyExample2\bin\Debug\netcoreapp3.1\CanopyExample2.pdb
+C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\CanopyExample2\bin\Debug\netcoreapp3.1\xunit.abstractions.dll
+C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\CanopyExample2\bin\Debug\netcoreapp3.1\xunit.assert.dll
+C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\CanopyExample2\bin\Debug\netcoreapp3.1\xunit.core.dll
+C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\CanopyExample2\bin\Debug\netcoreapp3.1\xunit.execution.dotnet.dll
+C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\CanopyExample2\obj\Debug\netcoreapp3.1\CanopyExample2.dll
+C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\CanopyExample2\obj\Debug\netcoreapp3.1\CanopyExample2.pdb

@@ -33,3 +33,4 @@ C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\CanopyTesting\bin\Debug
 C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\CanopyTesting\bin\Debug\netcoreapp3.1\CanopyTesting.pdb
 C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\CanopyTesting\obj\Debug\netcoreapp3.1\CanopyTesting.dll
 C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\CanopyTesting\obj\Debug\netcoreapp3.1\CanopyTesting.pdb
+C:\Users\Ingvar\source\repos\NameParser\TestingInF-Sharp\CanopyTesting\obj\Debug\netcoreapp3.1\CanopyTesting.fsproj.CoreCompileInputs.cache
