@@ -9,7 +9,6 @@ module Main =
     open OpenQA.Selenium
 
     module Initialize =
-           chromeDir <- @"C:/"
            start chrome
 
     [<AutoOpen>]
