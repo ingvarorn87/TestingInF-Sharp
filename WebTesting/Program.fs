@@ -1,6 +1,5 @@
 ﻿//these are similar to C# using statements
 open canopy.runner.classic
-open canopy.configuration
 open canopy.classic
 
 canopy.configuration.chromeDir <- System.AppContext.BaseDirectory
@@ -24,7 +23,10 @@ start chrome
 
     //change the value of element with
     //an id of 'firstName' to 'Something Else'
-    "#firstName" << "Something Else"
+    "#firstName" << "Postman"
+    //change the value of element with
+    //an id of 'lastname' to 'Pat'
+    "#lastName" << "Pat"
 
     //verify another element's value, click a button,
     //verify the element is updated
